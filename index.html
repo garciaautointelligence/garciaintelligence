@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Garcia Intelligence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#" class="logo" id="nav-logo"></a>
+    <ul class="nav-links">
+      <li><a href="#servicos">Servicos</a></li>
+      <li><a href="#processo">Como funciona</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <a href="#contato" class="nav-btn">Falar conosco</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <canvas id="hero-canvas"></canvas>
+    <div class="hero-overlay"></div>
+    <div class="scanlines"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <div class="hero-tag">INTELIGENCIA ARTIFICIAL · AUTOMACOES · SAAS</div>
+      <h1 class="hero-h1">
+        Seu negocio mais<br>
+        <span class="accent">inteligente e rapido</span>
+      </h1>
+      <p class="hero-sub-big">Tecnologia que qualquer empresa pode usar.</p>
+      <p class="hero-p">Criamos sites, automatizamos processos e desenvolvemos sistemas com IA — entregando em dias o que antes levava meses.</p>
+      <div class="hero-actions">
+        <a href="#contato" class="btn btn-fill">
+          Quero saber mais
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#servicos" class="btn btn-outline">Ver o que fazemos</a>
+      </div>
+    </div>
+    <div class="scroll-cue">
+      <span>CONTINUE</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <div class="ticker-item"><span class="td"></span>Sites de Alta Conversao</div>
+      <div class="ticker-item"><span class="td"></span>Automacoes Inteligentes</div>
+      <div class="ticker-item"><span class="td"></span>Sistemas com IA</div>
+      <div class="ticker-item"><span class="td"></span>Aplicativos SaaS</div>
+      <div class="ticker-item"><span class="td"></span>Integracao de Ferramentas</div>
+      <div class="ticker-item"><span class="td"></span>WhatsApp · CRM · E-mail</div>
+      <div class="ticker-item"><span class="td"></span>Entrega em Dias</div>
+      <div class="ticker-item"><span class="td"></span>Resultados Reais</div>
+      <!-- duplicado para loop contínuo -->
+      <div class="ticker-item"><span class="td"></span>Sites de Alta Conversao</div>
+      <div class="ticker-item"><span class="td"></span>Automacoes Inteligentes</div>
+      <div class="ticker-item"><span class="td"></span>Sistemas com IA</div>
+      <div class="ticker-item"><span class="td"></span>Aplicativos SaaS</div>
+      <div class="ticker-item"><span class="td"></span>Integracao de Ferramentas</div>
+      <div class="ticker-item"><span class="td"></span>WhatsApp · CRM · E-mail</div>
+      <div class="ticker-item"><span class="td"></span>Entrega em Dias</div>
+      <div class="ticker-item"><span class="td"></span>Resultados Reais</div>
+    </div>
+  </div>
+
+  <!-- NUMBERS -->
+  <section class="section">
+    <div class="section-inner">
+      <div class="numbers-grid fade-up">
+        <div class="num-item">
+          <div class="num-val">3x</div>
+          <div class="num-label">Mais rapido que<br>agencias tradicionais</div>
+        </div>
+        <div class="num-item">
+          <div class="num-val">IA</div>
+          <div class="num-label">No centro de cada<br>projeto que fazemos</div>
+        </div>
+        <div class="num-item">
+          <div class="num-val">~7d</div>
+          <div class="num-label">Para entregar seu<br>primeiro projeto</div>
+        </div>
+        <div class="num-item">
+          <div class="num-val">R$0</div>
+          <div class="num-label">De surpresa no<br>orcamento final</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section services-bg" id="servicos">
+    <div class="section-inner">
+      <div class="eyebrow fade-up">O QUE FAZEMOS</div>
+      <h2 class="section-h fade-up">Simples de entender.<br>Poderoso de usar.</h2>
+      <p class="section-sub fade-up">Nao precisa entender de tecnologia. Voce explica o problema, a gente resolve.</p>
+      <div class="services-grid">
+
+        <div class="svc fade-up">
+          <div class="svc-num">01</div>
+          <span class="svc-icon">🌐</span>
+          <div class="svc-name">Sites que vendem</div>
+          <div class="svc-what">O que voce recebe:</div>
+          <p class="svc-desc">Uma pagina bonita, rapida e feita para transformar visitantes em clientes. Criamos do zero ou melhoramos o que voce ja tem.</p>
+          <div class="svc-tags">
+            <span class="stag">LANDING PAGE</span>
+            <span class="stag">REDESIGN</span>
+            <span class="stag">CONVERSAO</span>
+          </div>
+        </div>
+
+        <div class="svc fade-up">
+          <div class="svc-num">02</div>
+          <span class="svc-icon">⚙️</span>
+          <div class="svc-name">Tarefas no piloto automatico</div>
+          <div class="svc-what">O que voce recebe:</div>
+          <p class="svc-desc">Respostas, cobrancas, planilhas e relatorios feitos automaticamente — sem voce tocar em nada.</p>
+          <div class="svc-tags">
+            <span class="stag">WHATSAPP</span>
+            <span class="stag">E-MAIL</span>
+            <span class="stag">CRM</span>
+            <span class="stag">RELATORIOS</span>
+          </div>
+        </div>
+
+        <div class="svc fade-up">
+          <div class="svc-num">03</div>
+          <span class="svc-icon">🤖</span>
+          <div class="svc-name">Sistemas com inteligencia artificial</div>
+          <div class="svc-what">O que voce recebe:</div>
+          <p class="svc-desc">Ferramentas feitas sob medida com IA integrada para economizar tempo e tomar decisoes mais rapidas.</p>
+          <div class="svc-tags">
+            <span class="stag">APLICATIVO</span>
+            <span class="stag">PAINEL</span>
+            <span class="stag">IA</span>
+          </div>
+        </div>
+
+        <div class="svc fade-up">
+          <div class="svc-num">04</div>
+          <span class="svc-icon">📦</span>
+          <div class="svc-name">Seu proprio produto digital</div>
+          <div class="svc-what">O que voce recebe:</div>
+          <p class="svc-desc">Tem uma ideia de produto digital? Desenvolvemos e lancamos junto com voce, pronto para vender com assinatura mensal.</p>
+          <div class="svc-tags">
+            <span class="stag">PRODUTO</span>
+            <span class="stag">ASSINATURA</span>
+            <span class="stag">RECEITA RECORRENTE</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section" id="processo">
+    <div class="section-inner">
+      <div class="eyebrow fade-up">COMO FUNCIONA</div>
+      <h2 class="section-h fade-up">Da conversa ao resultado<br>em 4 passos simples</h2>
+      <p class="section-sub fade-up">Sem jargao tecnico, sem contrato confuso, sem espera.</p>
+      <div class="process-rows">
+
+        <div class="proc-row fade-up">
+          <div class="proc-num">01</div>
+          <div class="proc-body">
+            <div class="proc-title">Voce nos conta o problema</div>
+            <div class="proc-desc">Uma conversa rapida pelo WhatsApp ou videochamada. Sem compromisso e sem custo.</div>
+          </div>
+          <div class="proc-tag">30 MIN</div>
+        </div>
+
+        <div class="proc-row fade-up">
+          <div class="proc-num">02</div>
+          <div class="proc-body">
+            <div class="proc-title">A gente apresenta a solucao e o preco</div>
+            <div class="proc-desc">Proposta clara com tudo o que sera feito, quanto custa e quando entrega. Sem surpresas.</div>
+          </div>
+          <div class="proc-tag">24H</div>
+        </div>
+
+        <div class="proc-row fade-up">
+          <div class="proc-num">03</div>
+          <div class="proc-body">
+            <div class="proc-title">Desenvolvemos com velocidade de IA</div>
+            <div class="proc-desc">Usamos inteligencia artificial para construir mais rapido. Voce acompanha o progresso.</div>
+          </div>
+          <div class="proc-tag">DIAS, NAO MESES</div>
+        </div>
+
+        <div class="proc-row fade-up">
+          <div class="proc-num">04</div>
+          <div class="proc-body">
+            <div class="proc-title">Entregamos tudo funcionando</div>
+            <div class="proc-desc">Produto no ar com explicacao de como usar e suporte apos entrega.</div>
+          </div>
+          <div class="proc-tag">GARANTIDO</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA / CONTATO -->
+  <section class="section cta-section" id="contato">
+    <div class="cta-bg"></div>
+    <div class="cta-inner">
+      <div class="eyebrow fade-up" style="justify-content:center">FALE CONOSCO</div>
+      <h2 class="section-h fade-up">Pronto para dar o<br>proximo passo?</h2>
+      <p class="section-sub fade-up">Manda uma mensagem. Em ate 24h a gente retorna com a melhor opcao para o seu caso.</p>
+      <div class="terminal fade-up">
+        <div class="term-dots">
+          <div class="dot dot-r"></div>
+          <div class="dot dot-y"></div>
+          <div class="dot dot-g"></div>
+        </div>
+        <div class="term-line"><span class="tp">garcia@intelligence</span>:~$ iniciar_projeto</div>
+        <div class="term-line"><span class="tg">ok</span> analisando seu negocio...</div>
+        <div class="term-line"><span class="tc">-></span> aguardando seu contato<span class="blink"></span></div>
+      </div>
+      <div class="cta-btns fade-up">
+        <a href="https://wa.me/5511945629100" class="btn btn-fill" target="_blank">
+          <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          Chamar no WhatsApp
+        </a>
+        <a href="mailto:garcia.autointelligence@gmail.com" class="btn btn-outline">
+          <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+            <polyline points="22,6 12,13 2,6"/>
+          </svg>
+          Enviar e-mail
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <a href="#" class="ft-logo">garcia<em>.</em>intelligence</a>
+    <div class="ft-copy">2025 — GARCIA INTELLIGENCE</div>
+    <div class="ft-links">
+      <a href="#servicos">Servicos</a>
+      <a href="#processo">Como funciona</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
